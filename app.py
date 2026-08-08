@@ -27,7 +27,7 @@ from recommender import (
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, "data", "C:\\Knowledge Park\\AI, ML and DS\\ML_Deployment\\Anime\\anime.csv")
+DATA_PATH = os.path.join(BASE_DIR, "data", "anime.csv")
 MODELS_DIR = os.path.join(BASE_DIR, "models")
 
 st.set_page_config(
